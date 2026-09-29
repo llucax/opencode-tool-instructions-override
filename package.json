@@ -1,0 +1,17 @@
+{
+  "name": "opencode-tool-instructions-override",
+  "private": true,
+  "type": "module",
+  "description": "OpenCode plugin to override any tool's instructions from config",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node --test src/*.test.ts",
+    "check": "npm run typecheck && npm test"
+  },
+  "devDependencies": {
+    "@opencode-ai/plugin": "1.18.32",
+    "@types/node": "^24.0.0",
+    "effect": "4.0.0-beta.83",
+    "typescript": "^5.7.0"
+  }
+}
