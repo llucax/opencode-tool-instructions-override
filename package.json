@@ -11,7 +11,7 @@
   "devDependencies": {
     "@opencode-ai/plugin": "1.18.32",
     "@types/node": "^24.0.0",
-    "effect": "4.0.0-beta.83",
+    "effect": "4.0.0-rc.118",
     "typescript": "^5.7.0"
   }
 }
